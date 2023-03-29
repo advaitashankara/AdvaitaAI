@@ -13,7 +13,7 @@ export function getGithubEditUrl(Astro: Readonly<AstroGlobal>) {
 	const githubEditUrl =
 		content.githubURL && (lang === 'en' || isFallback)
 			? `${content.githubURL}${content.hasREADME ? 'README.md' : ''}`
-			: `https://github.com/hangari1/ai-expert/main/${currentFile}`;
+			: `https://github.com/advaitashankara/AdvaitaAI/new/${currentFile}`;
 
 	return githubEditUrl;
 }

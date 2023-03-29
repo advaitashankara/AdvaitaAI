@@ -10,8 +10,8 @@
 export default [
 	// Learn Tab, use type as 'learn'
 	{ text: 'Start Here', header: true, type: 'learn', key: 'startHere' },
-	{ text: 'Introduction', slug: 'getting-started', key: 'getting-started' },
-	{ text: 'Roadmap', slug: 'math/roadmap', key: 'roadmap' },
+	{ text: 'Introduction', slug: 'start-here/introduction', key: 'introduction' },
+	{ text: 'Roadmap', slug: 'start-here/roadmap', key: 'roadmap' },
 
 
 	// Industry Tab, use type as 'api'
