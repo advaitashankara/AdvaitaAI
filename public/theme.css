@@ -78,7 +78,7 @@
 	--color-base-orange: 22, 100%;
 	--color-base-purple: 0, 0%;
 	--color-base-purple2: 269, 79%;
-	--color-base-red: 351, 100%;
+	--color-base-red: 225, 100%;
 	--color-base-yellow: 41, 100%;
 
 	/*
@@ -112,8 +112,8 @@
 :root,
 ::backdrop {
 	color-scheme: light;
-	--theme-accent: hsla(var(--color-orange), 1);
-	--theme-accent-secondary: hsl(324, 75%, 38%);
+	--theme-accent: hsla(var(--color-red), 1);
+	--theme-accent-secondary: hsla(var(--color-red), 1);
 	--theme-dim: hsla(var(--color-gray-70), 1);
 	--theme-dim-light: hsla(var(--color-gray-80), 1);
 	--theme-dim-lighter: hsla(var(--color-gray-90), 1);
@@ -167,7 +167,7 @@
 	--color-orange: var(--color-base-orange), 60%;
 	--theme-accent-opacity: 0.4;
 	--theme-accent: hsla(var(--color-orange), 1);
-	--theme-accent-secondary: hsla(var(--color-orange), 1);
+	--theme-accent-secondary:hsla(var(--color-orange), 1);
 	--theme-text-accent: hsla(var(--color-orange), 1);
 	--theme-dim: hsla(var(--color-gray-90), 0.3);
 	--theme-dim-light: hsla(var(--color-gray-90), 0.2);

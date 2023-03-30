@@ -49,9 +49,9 @@ export default function Search({ lang = 'en', labels }: Props) {
 			initialQuery={initialQuery}
 			initialScrollY={window.scrollY}
 			onClose={onClose}
-			indexName="astro"
-			appId="7AFBU8EPJU"
-			apiKey="4440670147c44d744fd8da35ff652518"
+			indexName="ai.shreepadhangari"
+			appId="GLN8A7NRTO"
+			apiKey="54eb461953be1077999a907401203244"
 			searchParameters={{ facetFilters: [[`lang:${lang}`]] }}
 			getMissingResultsUrl={({ query }: { query: string }) =>
 				`https://github.com/withastro/docs/issues/new?title=Missing+results+for+query+%22${encodeURIComponent(
